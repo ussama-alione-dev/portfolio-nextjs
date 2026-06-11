@@ -9,7 +9,6 @@ export default function Hero() {
             id="hero"
             className="relative min-h-svh flex items-center overflow-hidden pt-16"
         >
-            {/* Decorative grid */}
             <div
                 aria-hidden="true"
                 className="absolute inset-0 grid grid-cols-6 pointer-events-none"
@@ -23,7 +22,6 @@ export default function Hero() {
                 <div className="absolute bottom-0 inset-x-0 h-2/5 bg-gradient-to-t from-background to-transparent col-span-6" />
             </div>
 
-            {/* Ambient glow */}
             <div
                 aria-hidden="true"
                 className="absolute top-1/3 left-1/4 w-96 h-96 rounded-full bg-primary/10 blur-3xl pointer-events-none"

@@ -15,5 +15,5 @@ export const aboutData: AboutData = {
         { name: "Figma / UI Design", level: 60 },
     ],
     location: "Beni Mellal, Morocco",
-    email: "youssef@example.com",
+    email: "aliouaneoussama89@example.com",
 };

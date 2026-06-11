@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Syne } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -15,9 +17,9 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    title: "Youssef El Amrani — Full-Stack Developer",
+    title: "Oussama ali1 — Full-Stack Developer",
     description:
-        "Portfolio of Youssef El Amrani — full-stack developer specialising in Next.js, TypeScript, and Node.js.",
+        "Portfolio of Oussama ali1 — full-stack developer specialising in Next.js, TypeScript, and Node.js.",
 };
 
 export default function RootLayout({
@@ -27,7 +29,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" className={`${inter.variable} ${syne.variable}`}>
+            <Navbar />
             <body>{children}</body>
+            <Footer />
         </html>
     );
 }
