@@ -9,7 +9,7 @@ const NAV_LINKS = [
     { label: "Projects", href: "projects" },
     {
         label: "Contact",
-        href: `mailto:${heroData.email ?? "aliouaneoussaa89@example.com"}`,
+        href: "contact",
     },
 ];
 
