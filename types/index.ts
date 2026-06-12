@@ -10,7 +10,6 @@ export interface HeroData {
 
 export interface Skill {
     name: string;
-    level: number;
 }
 
 export interface AboutData {
