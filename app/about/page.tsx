@@ -50,12 +50,6 @@ export default function AboutPage() {
                     <p className="mt-4 text-sm text-muted-foreground">
                         📍 {location}
                     </p>
-                    <a
-                        href={`mailto:${email}`}
-                        className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-primary text-primary-foreground rounded-xl text-sm font-semibold hover:opacity-85 transition-opacity"
-                    >
-                        Say hello →
-                    </a>
                 </div>
                 <div className="flex-shrink-0">
                     <div className="w-44 h-44 rounded-full bg-secondary border-2 border-primary flex items-center justify-center font-display text-6xl text-primary select-none">
