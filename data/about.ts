@@ -16,4 +16,28 @@ export const aboutData: AboutData = {
     ],
     location: "Beni Mellal, Morocco",
     email: "aliouaneoussama89@example.com",
+
+    experiences: [
+        {
+            year: "2023 →",
+            role: "Senior Frontend Developer",
+            company: "Freelance / Remote",
+            description:
+                "Building web apps for startups across Europe and MENA. Focus on performance and developer experience.",
+        },
+        {
+            year: "2021",
+            role: "Full-stack Developer",
+            company: "Softech, Casablanca",
+            description:
+                "Led the frontend rewrite of an e-commerce platform serving 50k+ monthly users.",
+        },
+        {
+            year: "2019",
+            role: "Junior Developer",
+            company: "Digital Agency, Rabat",
+            description:
+                "Delivered WordPress and React projects for local clients.",
+        },
+    ],
 };

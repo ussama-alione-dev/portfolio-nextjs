@@ -17,6 +17,7 @@ export interface AboutData {
     skills: Skill[];
     location: string;
     email: string;
+    experiences: ExperienceItem[];
 }
 
 export type ProjectTag = string;
@@ -29,4 +30,15 @@ export interface Project {
     liveUrl?: string;
     repoUrl?: string;
     featured: boolean;
+}
+
+export interface ExperienceItem {
+    year: string;
+    role: string;
+    company: string;
+    description: string;
+}
+
+export interface ExperienceData {
+    experiences: ExperienceItem[];
 }

@@ -33,13 +33,13 @@ export default function Navbar() {
             }`}
         >
             <div className="max-w-5xl mx-auto px-6 h-full flex items-center justify-between">
-                <a
-                    href="#hero"
+                <Link
+                    href="/"
                     className="font-display font-bold text-xl tracking-tight text-foreground"
                 >
                     {firstName}
                     <span className="text-primary">.</span>
-                </a>
+                </Link>
 
                 <nav
                     aria-label="Main navigation"
